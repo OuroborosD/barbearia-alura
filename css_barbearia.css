@@ -70,6 +70,9 @@ nav a{
     text-decoration: none;
 }
 
+
+    
+
 /* =====================================> CLASSE <==============================================*/
 
 
@@ -100,12 +103,27 @@ nav a{
     
   }
 
-.list{
-    display:inline;
-    padding-left: 15px;
-   
+.menu_pro li{
     
+    display:inline;
+    margin-left: 15px;
+    padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
+
+.menu_pro li:hover{
+    
+    border-color: goldenrod;
+
+}
+.list a:hover{
+    color: goldenrod;
+}
+
+
+
 .produto{
     text-align: center;
 }
@@ -113,7 +131,7 @@ nav a{
 .produto li{
     display: inline-block;
     text-align: center;
-    padding: 12px;
+    padding: 18px;
     border-radius: 20px;
     border-width: 2px;
     border-style: solid;
@@ -121,6 +139,22 @@ nav a{
     margin: 25px;
     width: 300px ;
     height: 375px;
+    
+}
+
+.produto li:hover {
+    border-color: goldenrod;
+}
+
+.produto li:hover h2 {
+    border-color: goldenrod;
+    font-size: 40px;
+}
+.produto li:active {
+    border-color: green;
+    border-width: 8px;
+    
+
 }
    
 .list_text{
@@ -132,6 +166,23 @@ nav a{
     font-weight: bolder;
     font-size: 25px;
     padding-top: 8px;
+}
+
+.rodape{
+    text-align: center;
+    padding: 18px;
+    background-color: grey;
+    
+}
+
+.rodape img{
+    height: 83;
+    width: 60;
+}
+
+.rodape p{
+    color: whitesmoke;
+    font-size: 12px;
 }
 /* =====================================> ID  <==============================================*/
 
