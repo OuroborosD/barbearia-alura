@@ -1,0 +1,155 @@
+
+
+em strong{
+    color: Rgb(0,255,0);
+}
+
+
+
+ /* =====================================> CLASSES <==============================================*/
+ .principal{
+    margin: 8px;
+}
+.cab_index{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin: 12px;
+    background-color: #cccccc;
+}
+
+
+
+.corpo{
+    text-align: center;
+    background-color: #cccccc;
+    padding-bottom: 12px;
+    padding-top: 6px;
+}
+
+.lista{
+    
+    font-style: italic;
+    font-size: 26px;
+    
+}
+
+.plus{
+    background-color: whitesmoke;
+}
+
+.bene{
+    width: 50%;
+}
+/* =====================================> ID  <==============================================*/
+
+
+#TM{
+    font-size: 25px;
+}
+
+
+#barb{
+    width: 100%;
+}
+
+#titi2{
+    margin-left: 12px;
+    font-size: 36px;
+    text-align: center;
+}
+
+ /* =====================================>   <==============================================*/
+/* =====================================> PRODUTO  <==============================================*/
+ /* =====================================>   <==============================================*/
+
+
+nav a{
+    color: black;
+    font-weight: bolder; 
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* =====================================> CLASSE <==============================================*/
+
+
+                  
+
+.body_pro{
+
+  
+ }
+
+.header_pro{
+    background-color: #cccccc;
+}
+                                
+.logo{
+                                    
+    width: 90px;
+    height: 113px;
+}
+
+.posi{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+ .menu_pro{
+    
+  }
+
+.list{
+    display:inline;
+    padding-left: 15px;
+   
+    
+}
+.produto{
+    text-align: center;
+}
+
+.produto li{
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 25px;
+    width: 300px ;
+    height: 375px;
+}
+   
+.list_text{
+   font-weight: bolder;
+   font-size: 30px;
+}
+
+.list_preco{
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 8px;
+}
+/* =====================================> ID  <==============================================*/
+
+
+#TM{
+    font-size: 25px;
+}
+
+
+#barb{
+    width: 100%;
+}
+
+#titi2{
+    margin-left: 12px;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* =====================================>   <==============================================*/
+/* =====================================>   <==============================================*/
