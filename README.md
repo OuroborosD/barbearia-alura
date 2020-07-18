@@ -1,9 +1,9 @@
 # barbearia-alura
-um projeto que vai mesclar todos os conceitos web
+mesclar os conceitos  web, para criar uma aplicação completa.
 
-V html
-
-V CSS
+Tecnologias presentes
+-HTML
+-CSS
 
   Responsividade
   
