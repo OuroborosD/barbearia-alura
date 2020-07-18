@@ -52,6 +52,45 @@ form label, form p{
 }
 
 
+.botao{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 25%;
+    padding: 18px 12px;
+    border:  none;
+    border-radius: 20px;
+    background-color: rgb(83, 179, 83);
+    transition: 2s background;
+    margin: 26px 0px;
+    
+}
+
+.botao:hover{
+    background-color: rgb(16, 133, 31);
+    transition: 2s background;
+}
+
+table{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+thead th{
+    background-color: gray;
+    padding: 0px 8px;
+    border-left: 2px solid #cccccc;
+}
+
+table tr{
+    margin: 8px;
+    border: 2px solid #cccccc;
+}
+table td{
+    padding:0px 8px;
+    margin-left: 8px;
+    border-left: 2px solid #cccccc;
+}
 
 footer{
     
