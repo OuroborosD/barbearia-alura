@@ -1,15 +1,19 @@
 # barbearia-alura
 mesclar os conceitos  web, para criar uma aplicação completa.
 
-Tecnologias presentes
--HTML
--CSS
+essa aplicação terá, pagina inicial, produtos, contato, e cadastro de clientes, e atendimento.ainda não decidi qual será a tecnologia backend.
 
-  Responsividade
+## Tecnologias presentes
+- HTML
+- CSS
+
+## tecnologias que faltam implementar
+ 
+ - Responsividade
   
-  javascript
+ * javascript
 
-  backend
+ * backend
 
 
  
