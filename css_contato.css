@@ -1,0 +1,71 @@
+
+.cabecalho{
+    background-color: gray;
+    
+}
+
+.logo{
+                                    
+    width: 70px;
+    
+}
+nav ul{
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+.lista li{
+    display: inline;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 6px;
+    padding: 8px;
+}
+
+
+main {
+    width: 720px;
+    
+    margin: 50px  auto;
+
+}
+
+form label, form p{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin: 8px 0px;
+    
+
+}
+.input-padrao{
+    display: block;
+    padding: 8px ;
+    margin-bottom: 12px;
+    font-size: 20px;
+    width: 50%;
+}
+
+.input-radio{
+    margin: 8px 8px;
+}
+
+
+
+footer{
+    
+    background: url(IMG/bg.jpg);
+    text-align: center;
+    
+
+}
+
+footer img{
+    width: 50px;
+    
+}
+footer p{
+    color: blanchedalmond;
+    font-size: 12px;
+}

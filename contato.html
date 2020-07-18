@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html lang="pt-br">
+    <head>
+         <meta  charset="UTF-8">
+         <title>Contato</title>
+         <link rel="stylesheet" href="reset.css">
+         <link rel="stylesheet" href="css_contato.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+                <h1><img  class="logo"src="IMG/logo.png"></h1>
+                <nav>
+                    <ul class="lista">
+                        <li>Home</li>
+                        <li>Produtos</li>
+                        <li>Contato</li>
+                    </ul>
+                </nav>   
+        </header>
+        <main>
+                <form>
+                    <label for="nome">Nome e Sobrenome</label>
+                    <input type="text" id="nome" class="input-padrao">
+
+                    <label for="">endereço de email</label>
+                    <input type="email" id="email" class="input-padrao">
+
+                    <label for="tel">Telefone</label>
+                    <input type="tel" id="tel" class="input-padrao">
+
+                    <label>Mensagem</label>
+                    <textarea cols="70" rows="10" class="input-padrao"></textarea>
+                    <div class="radio">
+                        <p>Como gostaria o nosso contato</p>
+                        <label for="radio-email"><input type="radio" name="contato"  value="email" id="radio-email" class="input-radio"> email</label>
+                        
+
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone" class="input-radio"> telefone </label>
+                        
+
+                        <label for="radio-whatsapp"><input type="radio"  name="contato"  value="whatsapp" id="radio-whatsapp" class="input-radio"> whatsapp</label>
+                        
+                    </div>
+                    <p>Qual horario quer ser atendido?</p>
+                    <select>
+                        <option>manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+
+                    <label><input type="checkbox"> gostaria de recerber noticias por email </label>    
+                    
+
+                    <input type="submit"  value="enviar formulario" class="input-padrao">
+                </form>
+                
+        </main>
+    </body>
+    <footer>
+        <img src="IMG/logo-branco.png">
+        <p>todos os direitos reservados para oroboros</p>
+    </footer>
+
+</html>
