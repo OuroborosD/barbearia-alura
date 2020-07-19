@@ -15,11 +15,13 @@ this aplication  will have;
  - user page and administrative page with the orders and historic of orders.
 
 
-##technology implemented
+## technology implemented
+
 - HTML
+
 - CSS
 
-##technology  who will be implemented
+## technology  who will be implemented
  
   
  * javascript
