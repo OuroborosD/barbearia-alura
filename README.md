@@ -12,7 +12,7 @@ this aplication  will have;
  
  - backend still not definite what framework well be.
  
- -user page and administrative page with the orders and historic of orders.
+ - user page and administrative page with the orders and historic of orders.
 
 
 ##technology implemented
