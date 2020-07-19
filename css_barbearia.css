@@ -290,7 +290,8 @@ nav a{
 }
 .produto li:active {
     border-color: green;
-    border-width: 8px;
+    border-width: 4px;
+
     
 
 }
@@ -386,5 +387,10 @@ nav a{
     }
     footer{
         height: 170px;
+    }
+
+    .produto li{
+        width: 250px ;
+        height: 360px;
     }
 }

@@ -22,6 +22,8 @@ it will put together the concepts web, to create a complete aplication, with the
 
 - CSS
 
+- Resposive
+
 ## technology  who will be implemented
  
   

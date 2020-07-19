@@ -126,3 +126,27 @@ footer p{
     color: blanchedalmond;
     font-size: 12px;
 }
+
+
+@media screen and (max-width: 480px){
+
+    main{
+        width: auto;
+        text-align: center;
+    }
+    form{
+        padding-bottom: 22px;
+    }
+    .input-padrao{
+    width: 100%;  
+    }
+    .botao{
+        margin: 0px 20%;
+        margin: 0px 20%;
+        width: 60%;
+    }
+    .tabela-div{
+        margin: 0px 25%;
+    }
+}
+
