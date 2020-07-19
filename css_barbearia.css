@@ -1,29 +1,160 @@
-
+body{
+    font-family: 'Lobster', cursive;
+}
 
 em strong{
     color: Rgb(0,255,0);
 }
 
+footer{
+    background: url(IMG/bg.jpg);
+    text-align: center;
+} 
+
+footer img{
+    width: 50px;
+}
+
+footer p{
+    font-size: 8px;
+    color: white;
+}
 
 
  /* =====================================> CLASSES <==============================================*/
+
+.header_cab{
+    background: url("IMG/bg.jpg");
+    
+
+}
+
+
+
+
+
+.logo_cab{
+    width: 50px;
+}
+
+.nav_cab{    
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    
+    
+}
+
+.menu_cab{
+    
+}
+
+.lis{
+    display: inline;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left: 4px;
+    transition: 2s;
+    
+}
+
+.lis:hover{
+    background-color: rgb(205, 216, 223);
+    transition: 2s;
+    border: none;
+}
+
+.nav_cab a{
+    color: honeydew;
+    font-size: 16px;
+}
+
+
+
  .principal{
     margin: 8px;
 }
 .cab_index{
-    padding-top: 22px;
+    
     padding-bottom: 22px;
-    margin: 12px;
-    background-color: #cccccc;
+    
+    background-color:rgb(255, 255, 255);
 }
 
-
-
+main .sep{
+    background: linear-gradient(rgb(255, 255, 255),rgb(138, 129, 129));
+}
 .corpo{
     text-align: center;
-    background-color: #cccccc;
-    padding-bottom: 12px;
+    width: 940px;     
+    padding-bottom: 24px;
     padding-top: 6px;
+    
+}
+
+.corpo h2, .mapa h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.corpo h2:before{
+    content: " | ";
+}
+
+.corpo h2:after{
+    content: " |";
+}
+
+.ultensilios{
+    padding-left:  25%;
+    padding-right: 12px;
+    float: left;
+    width: 150px;
+}
+.corpo p{
+    margin: 0px 18%;
+    text-align: justify;
+    padding-bottom: 1em;
+    padding-left: 125px;
+}
+
+.corpo li{
+    padding: 8px 0px;
+}
+
+.corpo li:before{
+    content:"\2606";
+}
+
+.corpo em{
+    font-style: italic;
+}
+
+.corpo strong{
+    font-weight: bold;
+}
+
+.mapa{
+    text-align: center;
+    
+    padding: 26px;
+    width: 940px;
+}
+
+.mapa p{
+    padding-bottom: 2em;
+}
+
+main .sep2{
+    background: linear-gradient(rgb(138, 129, 129),rgb(255, 255, 255));
+}
+.video{
+    text-align: center;
+    padding: 2em 0em;
+    padding-left: 10%;
+    width: 940px;
 }
 
 .lista{
@@ -37,7 +168,19 @@ em strong{
     background-color: whitesmoke;
 }
 
+.conteudo-bene{
+
+}
+
+.lista-bene{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding-right: 18px;
+}
+
 .bene{
+    padding-top: 12px;
     width: 50%;
 }
 /* =====================================> ID  <==============================================*/
@@ -50,6 +193,7 @@ em strong{
 
 #barb{
     width: 100%;
+    
 }
 
 #titi2{
@@ -197,4 +341,50 @@ nav a{
 }
 
 /* =====================================>   <==============================================*/
-/* =====================================>   <==============================================*/
+/* =====================================>    <==============================================*/
+
+@media screen and (max-width: 480px){
+    
+
+    .header_cab, .corpo, .mapa, .video{
+        width: auto;
+        padding-bottom: 12px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .nav_cab{
+        text-align: center;
+        padding: 12px 0px 12px 0px;
+        position: static;
+        
+    }
+    .corpo .ultensilios{
+        padding-left:  0px;
+        padding-right: 0px;
+        float: left;
+        width: 100px;
+        margin: 0px auto
+    }
+
+    .corpo p{
+        margin: 0 auto;
+        text-align: justify;
+        padding-left: 0px;
+        padding-bottom: 1em;
+        
+    }
+    .video{
+        padding-left: 0px;
+    }
+ 
+    
+    .mapa iframe, .corpo img, .corpo p{
+        width: 100%;
+    }
+    footer{
+        height: 170px;
+    }
+}

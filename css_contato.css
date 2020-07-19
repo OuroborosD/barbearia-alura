@@ -1,26 +1,43 @@
+.header_cab{
+    background: url("IMG/bg.jpg");
 
-.cabecalho{
-    background-color: gray;
-    
 }
 
-.logo{
-                                    
-    width: 70px;
-    
+.logo_cab{
+    width: 50px;
 }
-nav ul{
+
+.nav_cab{    
     position: absolute;
-    right: 20px;
-    top: 50px;
+    top: 30px;
+    right: 30px;
 }
-.lista li{
+
+.menu_cab{
+    
+}
+
+.lis{
     display: inline;
-    border: 2px solid black;
+    padding: 10px;
+    border: 2px solid white;
     border-radius: 20px;
-    margin: 6px;
-    padding: 8px;
+    margin-left: 4px;
+    transition: 2s;
+    
 }
+
+.lis:hover{
+    background-color: rgb(205, 216, 223);
+    transition: 2s;
+    border: none;
+}
+
+.nav_cab a{
+    color: honeydew;
+    font-size: 16px;
+}
+
 
 
 main {
@@ -69,6 +86,7 @@ form label, form p{
 .botao:hover{
     background-color: rgb(16, 133, 31);
     transition: 2s background;
+    transform: scale(1.2);
 }
 
 table{
