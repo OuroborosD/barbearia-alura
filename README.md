@@ -1,6 +1,15 @@
 # barbearia-alura
 it will put together the concepts web, to create a complete aplication, with the knowledgement acquired in tha alura course.
 
+
+### features completed
+
+- index
+- product page
+- contact page
+- resposive  of the 3 pages above.
+ 
+
 ## this aplication  will have;
 
  - index, with some text, image and video, for presentation. * CHECKED
