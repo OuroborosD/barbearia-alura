@@ -1,6 +1,7 @@
 # barbearia-alura
-it will put together the concepts web, to create a complete aplication, with the knowledgement acquired in alura course.
-this aplication  will have;
+it will put together the concepts web, to create a complete aplication, with the knowledgement acquired in tha alura course.
+
+## this aplication  will have;
 
  - index, with some text, image and video, for presentation. * CHECKED
  
